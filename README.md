@@ -104,6 +104,11 @@ Affichage du calcul de la masse salariale totale des employés présents.
 ![image](https://github.com/user-attachments/assets/7c595560-7ef9-404e-b7a8-cc28fcf11e60)
 
 
+### 5.7Trouver un employé par son nom ou son poste.
+![image](https://github.com/user-attachments/assets/333a0778-c4ad-4245-8f44-77dd598a5219)
+
+
+
 ## 7. Conclusion
 Ce projet m'a permis de mettre en pratique les concepts fondamentaux de programmation orientée objet en Java, tout en résolvant des défis techniques comme le tri d'un tableau en fonction d'un ordre spécifique. L'utilisation des lambdas et des comparateurs pour trier les employés par salaire a été une expérience enrichissante et m'a permis de mieux comprendre les fonctionnalités avancées de Java.
 L'application peut être facilement étendue pour ajouter de nouvelles fonctionnalités, telles que l'intégration avec une base de données ou la gestion des départements.
