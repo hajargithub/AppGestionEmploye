@@ -64,7 +64,7 @@ public static void trierEmployesParSalaire(boolean ordreCroissant) {
     afficherEmployes();
 }
 ```
-###Explication du Code :
+**Explication du Code** :
 - Arrays.sort(employes, 0, index, ...) : Trie les employés dans le tableau employes du premier élément `(indice 0)` jusqu'à l'indice index, représentant le nombre d'employés actuels.
 - (e1, e2) -> ... : Un lambda qui définit la logique de comparaison entre deux employés (e1 et e2).
 - ordreCroissant ? Employe.compareParSalaire(e1, e2) : Employe.compareParSalaire(e2, e1) : Si ordreCroissant est true, les employés sont triés par salaire croissant, sinon décroissant.
@@ -84,6 +84,7 @@ L'utilisateur entre les informations pour ajouter un nouvel employé.
 Voici un écran montrant les employés triés par salaire, dans l'ordre croissant.
 ![image](https://github.com/user-attachments/assets/18585c80-4441-4e4a-ba4e-8e76b1fd63b2)
 
+
 Voici un écran montrant les employés triés par salaire, dans l'ordre décroissant.
 ![image](https://github.com/user-attachments/assets/e70ac806-29ee-4bd0-825c-73ba44821b85)
 
@@ -92,11 +93,14 @@ Voici un écran montrant les employés triés par salaire, dans l'ordre décrois
 Affichage du calcul de la masse salariale totale des employés présents.
 ![image](https://github.com/user-attachments/assets/f54dfd2c-3f63-4b7b-9f06-3844c5815a2c)
 
+
 ###5.5 Modifier un employé existant.
 ![image](https://github.com/user-attachments/assets/a6f2007b-bec2-402d-aede-04796674a617)
 
+
 ###5.6 Supprimer un employé du tableau à l’aide de son identifiant.
 ![image](https://github.com/user-attachments/assets/7c595560-7ef9-404e-b7a8-cc28fcf11e60)
+
 
 ##7. Conclusion
 Ce projet m'a permis de mettre en pratique les concepts fondamentaux de programmation orientée objet en Java, tout en résolvant des défis techniques comme le tri d'un tableau en fonction d'un ordre spécifique. L'utilisation des lambdas et des comparateurs pour trier les employés par salaire a été une expérience enrichissante et m'a permis de mieux comprendre les fonctionnalités avancées de Java.
