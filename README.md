@@ -62,3 +62,23 @@ public static void trierEmployesParSalaire(boolean ordreCroissant) {
     );
     afficherEmployes();
 }
+Explication du Code :
+Arrays.sort(employes, 0, index, ...) : Trie les employés dans le tableau employes de l'indice 0 jusqu'à l'indice index (nombre d'employés actuels).
+(e1, e2) -> ... : Un lambda pour définir la logique de comparaison entre deux employés (e1 et e2).
+ordreCroissant ? Employe.compareParSalaire(e1, e2) : Employe.compareParSalaire(e2, e1) : Si ordreCroissant est true, les employés sont triés par salaire croissant, sinon décroissant.
+Cette approche a été une découverte pour moi et a permis de résoudre le problème de tri de manière simple et efficace.
+
+## 5. Écrans montrant l'Exécution de Chaque Besoin
+ ### 5.1 Menu Principal
+Voici un aperçu du menu principal de l'application où l'utilisateur peut choisir parmi différentes options pour gérer les employés.
+
+### 5.2 Ajout d'un Employé
+L'utilisateur entre les informations pour ajouter un nouvel employé.
+
+
+ ### 5.3 Tri des Employés par Salaire
+Voici un écran montrant les employés triés par salaire, dans l'ordre croissant.
+
+
+### 5.4 Calcul de la Masse Salariale
+Affichage du calcul de la masse salariale totale de tous les employés.
