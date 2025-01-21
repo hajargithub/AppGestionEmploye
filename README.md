@@ -65,7 +65,7 @@ public static void trierEmployesParSalaire(boolean ordreCroissant) {
 }
 ```
 ###Explication du Code :
-- Arrays.sort(employes, 0, index, ...) : Trie les employés dans le tableau employes du premier élément (indice 0) jusqu'à l'indice index, représentant le nombre d'employés actuels.
+- Arrays.sort(employes, 0, index, ...) : Trie les employés dans le tableau employes du premier élément `(indice 0)` jusqu'à l'indice index, représentant le nombre d'employés actuels.
 - (e1, e2) -> ... : Un lambda qui définit la logique de comparaison entre deux employés (e1 et e2).
 - ordreCroissant ? Employe.compareParSalaire(e1, e2) : Employe.compareParSalaire(e2, e1) : Si ordreCroissant est true, les employés sont triés par salaire croissant, sinon décroissant.
 Ce type de tri basé sur un lambda était une découverte importante pour moi et m'a permis de résoudre facilement ce problème de tri.
