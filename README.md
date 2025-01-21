@@ -61,6 +61,6 @@ public static void trierEmployesParSalaire(boolean ordreCroissant) {
         ordreCroissant ? Employe.compareParSalaire(e1, e2) : Employe.compareParSalaire(e2, e1)
     );
     afficherEmployes();
-}
-## 5 Captures:
+}```
+### 5 Captures:
         
