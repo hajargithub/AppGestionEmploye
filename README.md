@@ -82,7 +82,7 @@ L'utilisateur entre les informations pour ajouter un nouvel employé.
 ![image](https://github.com/user-attachments/assets/610893f9-e24a-4c29-b7e4-c3657cd44bc0)
 
 
-###5.3 Tri des Employés par Salaire
+### 5.3 Tri des Employés par Salaire
 Voici un écran montrant les employés triés par salaire, dans l'ordre croissant.
 ![image](https://github.com/user-attachments/assets/18585c80-4441-4e4a-ba4e-8e76b1fd63b2)
 
