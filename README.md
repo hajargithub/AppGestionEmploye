@@ -61,7 +61,7 @@ public static void trierEmployesParSalaire(boolean ordreCroissant) {
         ordreCroissant ? Employe.compareParSalaire(e1, e2) : Employe.compareParSalaire(e2, e1)
     );
     afficherEmployes();
-}
+} ````java
 Explication du Code :
 Arrays.sort(employes, 0, index, ...) : Trie les employés dans le tableau employes de l'indice 0 jusqu'à l'indice index (nombre d'employés actuels).
 (e1, e2) -> ... : Un lambda pour définir la logique de comparaison entre deux employés (e1 et e2).
@@ -82,3 +82,4 @@ Voici un écran montrant les employés triés par salaire, dans l'ordre croissan
 
 ### 5.4 Calcul de la Masse Salariale
 Affichage du calcul de la masse salariale totale de tous les employés.
+
