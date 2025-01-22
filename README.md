@@ -72,36 +72,45 @@ Ce type de tri basé sur un lambda était une découverte importante pour moi et
 
 ## 5. Écrans montrant l'Exécution de Chaque Besoin
 
-### 5.1 Menu Principal
+### Menu Principal
 Voici un aperçu du menu principal de l'application, où l'utilisateur peut choisir parmi différentes options pour gérer les employés.
 ![image](https://github.com/user-attachments/assets/6bf975d5-2846-4132-b80a-bda5db95790f)
 
 
-### 5.2 Ajout d'un Employé
+### 5.1 Ajout d'un Employé
 L'utilisateur entre les informations pour ajouter un nouvel employé.
 ![image](https://github.com/user-attachments/assets/610893f9-e24a-4c29-b7e4-c3657cd44bc0)
 
 
-### 5.3 Tri des Employés par Salaire
+### 5.2 Modifier un employé existant.
+![image](https://github.com/user-attachments/assets/a6f2007b-bec2-402d-aede-04796674a617)
+
+
+### 5.3 Supprimer un employé du tableau à l’aide de son identifiant.
+![image](https://github.com/user-attachments/assets/7c595560-7ef9-404e-b7a8-cc28fcf11e60)
+
+
+## 5.4 Afficher tous les employés avec leurs détails.
+![image](https://github.com/user-attachments/assets/70eda604-0436-479b-b570-d5eb233dbd86)
+
+### 5.5 Trouver un employé par son nom ou son poste.
+![image](https://github.com/user-attachments/assets/333a0778-c4ad-4245-8f44-77dd598a5219)
+
+
+
+### 5.6 Calcul de la Masse Salariale
+Affichage du calcul de la masse salariale totale des employés présents.
+![image](https://github.com/user-attachments/assets/f54dfd2c-3f63-4b7b-9f06-3844c5815a2c)
+
+
+
+### 5.7 Tri des Employés par Salaire
 Voici un écran montrant les employés triés par salaire, dans l'ordre croissant.
 ![image](https://github.com/user-attachments/assets/18585c80-4441-4e4a-ba4e-8e76b1fd63b2)
 
 
 Voici un écran montrant les employés triés par salaire, dans l'ordre décroissant.
 ![image](https://github.com/user-attachments/assets/e70ac806-29ee-4bd0-825c-73ba44821b85)
-
-
-### 5.4 Calcul de la Masse Salariale
-Affichage du calcul de la masse salariale totale des employés présents.
-![image](https://github.com/user-attachments/assets/f54dfd2c-3f63-4b7b-9f06-3844c5815a2c)
-
-
-### 5.5 Modifier un employé existant.
-![image](https://github.com/user-attachments/assets/a6f2007b-bec2-402d-aede-04796674a617)
-
-
-### 5.6 Supprimer un employé du tableau à l’aide de son identifiant.
-![image](https://github.com/user-attachments/assets/7c595560-7ef9-404e-b7a8-cc28fcf11e60)
 
 
 ## 7. Conclusion
