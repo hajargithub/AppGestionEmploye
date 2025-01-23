@@ -74,6 +74,7 @@ Ce type de tri basé sur un lambda était une découverte importante pour moi et
 
 ### Menu Principal
 Voici un aperçu du menu principal de l'application, où l'utilisateur peut choisir parmi différentes options pour gérer les employés.
+
 ![image](https://github.com/user-attachments/assets/6bf975d5-2846-4132-b80a-bda5db95790f)
 
 
