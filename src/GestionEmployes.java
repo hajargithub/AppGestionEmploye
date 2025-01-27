@@ -92,17 +92,6 @@ public class GestionEmployes {
         System.out.println("La masse salariale totale est: " + totalSalaire);
     }
 
-    /*Explication détaillée :
-            Arrays.sort(employes, 0, index, ...) :
-            Arrays.sort() est une méthode de la classe Arrays qui permet de trier un tableau.
-    Le tableau employes est trié de la position 0 jusqu'à index (l'indice actuel du tableau). Le paramètre index représente le nombre actuel d'employés dans le tableau, donc cette méthode trie uniquement les employés existants.
-    Le comparateur (...) -> ... :
-    Cette partie du code définit un lambda (fonction anonyme) qui sert de comparateur pour le tri. Elle compare deux employés (e1 et e2) par leur salaire.
-    ordreCroissant ? Employe.compareParSalaire(e1, e2) : Employe.compareParSalaire(e2, e1) :
-    Si ordreCroissant est true, la méthode compareParSalaire(e1, e2) est utilisée pour trier les employés dans l'ordre croissant.
-    Si ordreCroissant est false, on inverse l'ordre des arguments dans la méthode compareParSalaire pour trier les employés dans l'ordre décroissant.
-    afficherEmployes() :
-    Après le tri, la méthode afficherEmployes() est appelée pour afficher la liste des employés triés.*/
     public static void trierEmployesParSalaire(boolean ordreCroissant) {
         Arrays.sort(employes, 0, index, (e1, e2) -> ordreCroissant ? Employe.compareParSalaire(e1, e2) : Employe.compareParSalaire(e2, e1));
         afficherEmployes();
